@@ -17,5 +17,4 @@ L'objectif était d'explorer plusieurs approches différentes par curiosité et 
    Deux fichiers correspondent à cette approche :
 
    - Fichier "_w"  : Version fonctionnelle ayant obtenu un score de 43.84017 sur la compétition.
-   - Fichier "_dk" : Tentative d'amélioration de la version précédente, qui ne fonctionne malheureusement pas en raison d'un problème de dimensions des tableaux. Lors du développement du réseau de neurones, j'ai été confronté à un problème de mémoire RAM :
-le code consommait plus de mémoire que ce que Kaggle autorise, ce qui générait une erreur d'exécution. J'ai tenté de réduire l'empreinte mémoire, mais sans succès.
+   - Fichier "_dk" : Tentative d'amélioration de la version précédente, qui ne fonctionne malheureusement pas en raison d'un problème de dimensions des tableaux. Lors du développement du réseau de neurones, j'ai été confronté à un problème de mémoire RAM : le code consommait plus de mémoire que ce que Kaggle autorise, ce qui générait une erreur d'exécution. J'ai tenté de réduire l'empreinte mémoire, mais sans succès.
