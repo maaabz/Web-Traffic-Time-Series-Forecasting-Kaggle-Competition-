@@ -18,7 +18,7 @@ L'objectif : prédire 64 jours de trafic sur ~145 000 pages Wikipédia. La métr
 | XGBoost + RegressorChain | `le-traffic-web-xgboost.ipynb` | non soumis | Entraîné sur un échantillon |
 | LSTM (optimisation mémoire) | `le-traffic-web-lstm-dk.ipynb` | — | Ne fonctionne pas |
 
-Mon score de 43,84 est donc du même ordre de grandeur que celui obtenu avec une méthode de référence simple. Je le laisse tel quel plutôt que d'annoncer un chiffre que je n'ai pas obtenu.
+Pour situer : les meilleures solutions tournaient autour de 35-38, et une simple médiane par page se situe autour de 44-45. Mon 43.84 est donc au niveau d'une baseline. Je le laisse tel quel plutôt que d'annoncer un chiffre que je n'ai pas obtenu.
 
 ### 1. XGBoost
 
