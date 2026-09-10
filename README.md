@@ -35,12 +35,6 @@ Deux fichiers correspondent à cette approche :
 
 Je préfère documenter ces échecs plutôt que de supprimer le fichier.
 
-### À faire
-
-- Réécrire le chargement des données avec un générateur
-- Ajouter une baseline médiane comme point de comparaison
-- Soumettre les prédictions XGBoost pour comparer les deux approches
-
 ---
 
 ## English version
@@ -73,12 +67,6 @@ Two files correspond to this approach:
   - **Dimensions**: an array shape error prevents execution. I have not isolated the cause yet.
 
 I would rather document these failures than delete the file.
-
-### Next steps
-
-- Rewrite data loading with a generator
-- Add a median baseline as a reference point
-- Submit the XGBoost predictions to properly compare both approaches
 
 ---
 
