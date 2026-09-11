@@ -15,7 +15,7 @@ L'objectif : prédire 64 jours de trafic sur ~145 000 pages Wikipédia. La métr
 | Approche | Fichier | Score SMAPE | État |
 | --- | --- | --- | --- |
 | LSTM | `le-traffic-web-lstm-w.ipynb` | **43.84** | Soumis |
-| XGBoost + RegressorChain | `le-traffic-web-xgboost.ipynb` | ~45.9 | Non soumis, évaluation locale sur 50 pages |
+| XGBoost | `le-traffic-web-xgboost.ipynb` | ~45.9 | Non soumis, évaluation locale sur 50 pages |
 | LSTM (optimisation mémoire) | `le-traffic-web-lstm-dk.ipynb` | — | Ne fonctionne pas |
 
 Pour situer : les meilleures solutions tournaient autour de 35-38, et une simple médiane par page se situe autour de 44-45. Mon 43.84 est donc au niveau d'une baseline. Je le laisse tel quel plutôt que d'annoncer un chiffre que je n'ai pas obtenu.
@@ -50,7 +50,7 @@ The goal: forecast 64 days of traffic for ~145,000 Wikipedia pages. The metric i
 | Approach | File | SMAPE score | Status |
 | --- | --- | --- | --- |
 | LSTM | `le-traffic-web-lstm-w.ipynb` | **43.84** | Submitted |
-| XGBoost + RegressorChain | `le-traffic-web-xgboost.ipynb` | ~45.9 | Not submitted, local evaluation on 50 pages |
+| XGBoost | `le-traffic-web-xgboost.ipynb` | ~45.9 | Not submitted, local evaluation on 50 pages |
 | LSTM (memory optimisation) | `le-traffic-web-lstm-dk.ipynb` | — | Does not run |
 
 For context: top solutions scored around 35-38, and a simple per-page median lands around 44-45. So my 43.84 is at baseline level. I am leaving it as measured rather than claiming a number I did not obtain.
